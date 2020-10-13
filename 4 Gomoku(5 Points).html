@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gomoku(5 Points)</title>
+  <link rel="stylesheet" href="./Gomoku/css-style.css">
+</head>
+
+<body>
+  <input type="radio" name="display-rules" id="input1">
+  <input type="radio" name="display-rules" id="input2">
+  <div class="wraper-rules">
+    <div class="rules">
+      <label for="input2">
+        <div class="closed">X</div>
+      </label>
+
+      <h2>Правила игры Гомоку</h2>
+      <p>
+        <b>Гомоку</b> — настольная логическая игра для двух игроков. На квадратной доске размером 19×19 
+        (в традиционном варианте), 15×15 (в современном спортивном варианте) или более
+        пунктов. Игроки поочерёдно выставляют камни двух цветов. Выигрывает тот, кто первым построит 
+        непрерывный ряд из пяти или более камней своего цвета по вертикали, горизонтали или диагонали.
+      </p>
+      <img src="./Gomoku/vert.png" alt="вертикально" title="вертикально" >
+      <img src="./Gomoku/goriz.png" alt="горизонтально" title="горизонтально" >
+      <img src="./Gomoku/diag1.png" alt="по диагонали" title="по диагонали" >
+      <img src="./Gomoku/diag2.png" alt="по диагонали" title="по диагонали" >
+      
+    </div>
+  </div>
+  <header class="flex">
+    <img src="./Gomoku/logo.png" alt="Лого" width="50px" height="50px">
+    <h1>ГАМОКУ</h1>
+    
+
+    <div id="start">
+      Начать игру
+    </div>
+    <label for="input1">
+      <div id='rules'> 
+        Правила
+      </div>
+    </label>
+    
+
+    <div class="player1" id="gamers">
+      Player1
+    </div>
+  </header>
+  <div>
+ 
+    
+    <div id="game">
+
+    </div>
+
+    
+  </div>
+  
+
+
+  <script src="./Gomoku/js.js"></script>
+</body>
+
+</html>
